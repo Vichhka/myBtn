@@ -1,6 +1,6 @@
 module.exports = {
   test: 'echo "Error: no test specified" && exit 1',
-  content: ["*.html", "./public/*.html"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
